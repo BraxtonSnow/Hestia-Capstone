@@ -1,0 +1,113 @@
+@import "variables.scss";
+
+body {
+  margin: 0px;
+  .main-page-container {
+    margin: 0px;
+    .header-container {
+      background-color: white;
+      height: 70px;
+      .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        margin: 0px 150px;
+
+        .left-nav-bar {
+          a {
+            text-decoration: none;
+            color: #6f6f6f;
+            font-size: 18px;
+          }
+        }
+        .right-nav-bar {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          a {
+            text-decoration: none;
+            color: #6f6f6f;
+            font-size: 16px;
+          }
+          button {
+            width: 80px;
+            height: 50px;
+            border-radius: 40px;
+            color: white;
+            background-color: #e91e63;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .title-box-container {
+      width: 100vw;
+      height: 300px;
+      .title-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: pink;
+        height: 350px;
+        position: absolute;
+        z-index: -1;
+        width: 100vw;
+
+        h1 {
+          font-size: 40px;
+          margin: 0px;
+        }
+      }
+    }
+    .main-body-container {
+      margin: 0px 2.5% 0px 2.5%;
+      background-color: white;
+      border-radius: 10px;
+      border: 2px solid grey;
+      .space-container {
+        margin: 0px 0px 0px 200px;
+        .worth-a-thousand-words-container {
+          a {
+            text-decoration: none;
+            color: #89229b;
+          }
+          h2 {
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 24px;
+            }
+          }
+          p {
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 16px;
+            }
+          }
+        }
+        .elements-container {
+        }
+        .more-tags-container {
+        }
+        .html-container {
+        }
+        .links-container {
+        }
+        .category-hierarchy-container {
+        }
+        .hello-world-container {
+        }
+      }
+    }
+    .footer-container {
+      .footer-content {
+        .footer-left {
+        }
+        .footer-right {
+        }
+      }
+    }
+  }
+}

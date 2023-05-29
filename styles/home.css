@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+body .main-page-container {
+  background-color: transparent;
+  margin: 0;
+}
+body .main-page-container .background-picture {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+  margin: 0px;
+  bottom: 0px;
+  max-width: 100%;
+}
+body .main-page-container .header-welcome-container {
+  margin: 0px 0px 200px 0px;
+}
+body .main-page-container .header-welcome-container .header-content {
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  margin: 0px 150px;
+  align-items: center;
+}
+body .main-page-container .header-welcome-container .header-content .left-nav-bar {
+  margin: 0;
+}
+body .main-page-container .header-welcome-container .header-content .left-nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+body .main-page-container .header-welcome-container .header-content .right-nav-bar {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 30px;
+}
+body .main-page-container .header-welcome-container .header-content .right-nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+body .main-page-container .header-welcome-container .header-content .right-nav-bar button {
+  width: 80px;
+  height: 50px;
+  border-radius: 40px;
+  color: white;
+  background-color: #e91e63;
+  cursor: pointer;
+}
+body .main-page-container .header-welcome-container .welcome-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+}
+body .main-page-container .header-welcome-container .welcome-content .word-content {
+  margin: 0;
+}
+body .main-page-container .header-welcome-container .welcome-content .word-content h1 {
+  font-size: 70px;
+  color: white;
+  margin: 100px 0px 0px 0px;
+}
+body .main-page-container .header-welcome-container .welcome-content .word-content p {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  font-size: 24px;
+  color: white;
+  padding: 0px;
+}
+body .main-page-container .header-welcome-container .welcome-content .see-more-button {
+  margin: 35px;
+}
+body .main-page-container .header-welcome-container .welcome-content .see-more-button button {
+  color: white;
+  background-color: #e91e63;
+  border-radius: 5px;
+  height: 60px;
+  width: 150px;
+  cursor: pointer;
+}
+body .main-page-container .main-body-container {
+  width: 95%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0px 2.5% 0px 2.5%;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+}
+body .main-page-container .main-body-container .title-content {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-size: 27px;
+  border-radius: 10px;
+}
+body .main-page-container .main-body-container .what-we-stand-for-container {
+  background-color: white;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+}
+body .main-page-container .main-body-container .what-we-stand-for-container .responsive-container {
+  width: 25%;
+}
+body .main-page-container .main-body-container .what-we-stand-for-container .responsive-container .symbol-content {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+body .main-page-container .main-body-container .what-we-stand-for-container .responsive-container .responsive-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+body .main-page-container .main-body-container .what-we-stand-for-container .quality-container {
+  width: 25%;
+}
+body .main-page-container .main-body-container .what-we-stand-for-container .quality-container .symbol-content {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+body .main-page-container .main-body-container .what-we-stand-for-container .quality-container .quality-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+body .main-page-container .main-body-container .what-we-stand-for-container .support-container {
+  width: 25%;
+}
+body .main-page-container .main-body-container .what-we-stand-for-container .support-container .symbol-content {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+body .main-page-container .main-body-container .what-we-stand-for-container .support-container .support-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+body .main-page-container .main-body-container .about-hestia-container {
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+body .main-page-container .main-body-container .about-hestia-container .about-hestia-photo {
+  position: absolute;
+  z-index: -1;
+}
+body .main-page-container .main-body-container .about-hestia-container .about-hestia-content {
+  margin: 0px 0px 0px 150px;
+}
+body .main-page-container .main-body-container .about-hestia-container .about-hestia-content p {
+  font-size: 20px;
+}
+body .main-page-container .main-body-container .about-hestia-container .about-hestia-content h2 {
+  font-size: 40px;
+  margin: 0px;
+}
+body .main-page-container .main-body-container .about-hestia-container .photo-content {
+  margin: 0px 150px 0px 0px;
+}
+body .main-page-container .main-body-container .about-hestia-container .photo-content img {
+  width: 500px;
+}
+body .main-page-container .main-body-container .blog-container {
+  height: 500px;
+  background-color: white;
+}
+body .main-page-container .main-body-container .blog-container .blog-title {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+body .main-page-container .main-body-container .blog-container .blog-title h2 {
+  font-size: 40px;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .worth-a-thousand-words-container {
+  width: 26%;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .worth-a-thousand-words-container .uncategorized-content {
+  height: 40px;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .worth-a-thousand-words-container .uncategorized-content a {
+  text-decoration: none;
+  color: #8b259d;
+  font-size: 17px;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .worth-a-thousand-words-container .title-link-content a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .elements-container {
+  width: 26%;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .elements-container .uncategorized-content {
+  height: 40px;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .elements-container .uncategorized-content a {
+  text-decoration: none;
+  color: #01bcd4;
+  font-size: 17px;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .elements-container .title-link-content a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .elements-container p a {
+  text-decoration: none;
+  color: #30547e;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .more-tags-container {
+  width: 26%;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .more-tags-container .uncategorized-content {
+  height: 40px;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .more-tags-container .uncategorized-content a {
+  text-decoration: none;
+  color: #f44335;
+  font-size: 17px;
+}
+body .main-page-container .main-body-container .blog-container .page-link-container .more-tags-container .title-link-content a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+body .main-page-container .main-body-container .get-in-touch-container {
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+}
+body .main-page-container .main-body-container .get-in-touch-container .photo-content {
+  position: absolute;
+  z-index: -1;
+}
+body .main-page-container .main-body-container .get-in-touch-container .get-in-touch-title {
+  font-size: 24px;
+  margin: 80px 0px 0px 100px;
+  color: white;
+}
+body .main-page-container .main-body-container .get-in-touch-container .get-in-touch-content {
+  display: flex;
+  margin: 0px 0px 0px 100px;
+}
+body .main-page-container .main-body-container .get-in-touch-container .get-in-touch-content .icon-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+  gap: 60px;
+  margin: 5px 10px 0px 0px;
+  color: white;
+}
+body .main-page-container .main-body-container .get-in-touch-container .get-in-touch-content .text-content {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px 0px 0px;
+  color: white;
+}
+body .main-page-container .main-body-container .get-in-touch-container .get-in-touch-content .text-content h4 {
+  font-size: 20px;
+  margin: 0px;
+}
+body .main-page-container .main-body-container .get-in-touch-container .get-in-touch-content .text-content p {
+  margin: 25px 0px 25px 0px;
+}
+body .main-page-container .footer-container {
+  background-color: #323437;
+  height: 100px;
+}
+body .main-page-container .footer-container .footer-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .main-page-container .footer-container .footer-content .footer-left {
+  display: flex;
+  margin: 150px;
+  gap: 40px;
+}
+body .main-page-container .footer-container .footer-content .footer-left a {
+  text-decoration: none;
+  color: white;
+}
+body .main-page-container .footer-container .footer-content .footer-right {
+  display: flex;
+  margin: 150px;
+  gap: 40px;
+}
+body .main-page-container .footer-container .footer-content .footer-right p {
+  color: white;
+}
+body .main-page-container .footer-container .footer-content .footer-right p a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=home.css.map */

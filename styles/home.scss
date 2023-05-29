@@ -1,0 +1,332 @@
+@import "variables.scss";
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  // font-family: "montserrat";
+  .main-page-container {
+    background-color: transparent;
+    margin: 0;
+    .background-picture {
+      position: absolute;
+      top: 0px;
+      z-index: -1;
+      margin: 0px;
+      bottom: 0px;
+      max-width: 100%;
+    }
+    .header-welcome-container {
+      margin: 0px 0px 200px 0px;
+      .header-content {
+        display: flex;
+        height: 150px;
+        justify-content: space-between;
+        margin: 0px 150px;
+        align-items: center;
+        .left-nav-bar {
+          margin: 0;
+
+          a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+          }
+        }
+        .right-nav-bar {
+          display: flex;
+          align-items: center;
+          margin: 0;
+          gap: 30px;
+          a {
+            color: white;
+            text-decoration: none;
+          }
+          button {
+            width: 80px;
+            height: 50px;
+            border-radius: 40px;
+            color: white;
+            background-color: #e91e63;
+            cursor: pointer;
+          }
+        }
+      }
+      .welcome-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 400px;
+        .word-content {
+          margin: 0;
+          h1 {
+            font-size: 70px;
+            color: white;
+            margin: 100px 0px 0px 0px;
+          }
+          p {
+            display: flex;
+            justify-content: center;
+            margin: 25px;
+
+            font-size: 24px;
+            color: white;
+            padding: 0px;
+          }
+        }
+        .see-more-button {
+          margin: 35px;
+          button {
+            color: white;
+            background-color: #e91e63;
+            border-radius: 5px;
+            height: 60px;
+            width: 150px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .main-body-container {
+      width: 95%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin: 0px 2.5% 0px 2.5%;
+      border-top: 2px solid grey;
+      border-left: 2px solid grey;
+      border-right: 2px solid grey;
+      .title-content {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: 27px;
+        border-radius: 10px;
+      }
+      .what-we-stand-for-container {
+        background-color: white;
+        height: 350px;
+        display: flex;
+        justify-content: space-evenly;
+        .responsive-container {
+          width: 25%;
+          .symbol-content {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+          }
+          .responsive-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+          }
+        }
+        .quality-container {
+          width: 25%;
+          .symbol-content {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+          }
+          .quality-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin: 0;
+          }
+        }
+        .support-container {
+          width: 25%;
+          .symbol-content {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+          }
+          .support-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+          }
+        }
+      }
+      .about-hestia-container {
+        height: 300px;
+        display: flex;
+        align-items: center;
+        .about-hestia-photo {
+          position: absolute;
+          z-index: -1;
+        }
+        .about-hestia-content {
+          margin: 0px 0px 0px 150px;
+          p {
+            font-size: 20px;
+          }
+          h2 {
+            font-size: 40px;
+            margin: 0px;
+          }
+        }
+        .photo-content {
+          margin: 0px 150px 0px 0px;
+          img {
+            width: 500px;
+          }
+        }
+      }
+      .blog-container {
+        height: 500px;
+        background-color: white;
+        .blog-title {
+          display: flex;
+          justify-content: center;
+          height: 200px;
+          h2 {
+            font-size: 40px;
+          }
+        }
+        .page-link-container {
+          display: flex;
+          justify-content: space-evenly;
+          .worth-a-thousand-words-container {
+            width: 26%;
+            .uncategorized-content {
+              height: 40px;
+              a {
+                text-decoration: none;
+                color: #8b259d;
+                font-size: 17px;
+              }
+            }
+            .title-link-content {
+              a {
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+              }
+            }
+          }
+          .elements-container {
+            width: 26%;
+            .uncategorized-content {
+              height: 40px;
+              a {
+                text-decoration: none;
+                color: #01bcd4;
+                font-size: 17px;
+              }
+            }
+            .title-link-content {
+              a {
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+              }
+            }
+            p {
+              a {
+                text-decoration: none;
+                color: #30547e;
+              }
+            }
+          }
+          .more-tags-container {
+            width: 26%;
+            .uncategorized-content {
+              height: 40px;
+              a {
+                text-decoration: none;
+                color: #f44335;
+                font-size: 17px;
+              }
+            }
+            .title-link-content {
+              a {
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+      .get-in-touch-container {
+        display: flex;
+        height: 500px;
+        flex-direction: column;
+        .photo-content {
+          position: absolute;
+          z-index: -1;
+        }
+        .get-in-touch-title {
+          font-size: 24px;
+          margin: 80px 0px 0px 100px;
+          color: white;
+        }
+        .get-in-touch-content {
+          display: flex;
+          margin: 0px 0px 0px 100px;
+          .icon-content {
+            display: flex;
+            flex-direction: column;
+            font-size: 35px;
+            gap: 60px;
+            margin: 5px 10px 0px 0px;
+            color: white;
+          }
+          .text-content {
+            display: flex;
+            flex-direction: column;
+            margin: 15px 0px 0px 0px;
+            color: white;
+            h4 {
+              font-size: 20px;
+              margin: 0px;
+            }
+            p {
+              margin: 25px 0px 25px 0px;
+            }
+          }
+        }
+      }
+    }
+    .footer-container {
+      background-color: #323437;
+      height: 100px;
+      .footer-content {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .footer-left {
+          display: flex;
+          margin: 150px;
+          gap: 40px;
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
+        .footer-right {
+          display: flex;
+          margin: 150px;
+          gap: 40px;
+          p {
+            color: white;
+            a {
+              text-decoration: none;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

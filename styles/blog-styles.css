@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+}
+body .main-page-container {
+  margin: 0px;
+}
+body .main-page-container .header-container {
+  background-color: white;
+  height: 70px;
+}
+body .main-page-container .header-container .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  margin: 0px 150px;
+}
+body .main-page-container .header-container .header-content .left-nav-bar a {
+  text-decoration: none;
+  color: #6f6f6f;
+  font-size: 18px;
+}
+body .main-page-container .header-container .header-content .right-nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+body .main-page-container .header-container .header-content .right-nav-bar a {
+  text-decoration: none;
+  color: #6f6f6f;
+  font-size: 16px;
+}
+body .main-page-container .header-container .header-content .right-nav-bar button {
+  width: 80px;
+  height: 50px;
+  border-radius: 40px;
+  color: white;
+  background-color: #e91e63;
+  cursor: pointer;
+}
+body .main-page-container .title-box-container {
+  width: 100vw;
+  height: 300px;
+}
+body .main-page-container .title-box-container .title-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  height: 350px;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+}
+body .main-page-container .title-box-container .title-content h1 {
+  font-size: 40px;
+  margin: 0px;
+}
+body .main-page-container .main-body-container {
+  margin: 0px 2.5% 0px 2.5%;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid grey;
+}
+body .main-page-container .main-body-container .space-container {
+  margin: 0px 0px 0px 200px;
+}
+body .main-page-container .main-body-container .space-container .worth-a-thousand-words-container a {
+  text-decoration: none;
+  color: #89229b;
+}
+body .main-page-container .main-body-container .space-container .worth-a-thousand-words-container h2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+body .main-page-container .main-body-container .space-container .worth-a-thousand-words-container p a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}/*# sourceMappingURL=blog-styles.css.map */
