@@ -48,7 +48,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: pink;
+        background-color: #bd267d;
         height: 350px;
         position: absolute;
         z-index: -1;
@@ -63,10 +63,11 @@ body {
     .main-body-container {
       margin: 0px 2.5% 0px 2.5%;
       background-color: white;
-      border-radius: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
       border: 2px solid grey;
       .space-container {
-        margin: 0px 0px 0px 200px;
+        margin: 100px 0px 0px 200px;
         .worth-a-thousand-words-container {
           a {
             text-decoration: none;
@@ -80,6 +81,7 @@ body {
             }
           }
           p {
+            color: #646e7b;
             a {
               text-decoration: none;
               color: black;
@@ -88,24 +90,167 @@ body {
           }
         }
         .elements-container {
+          margin: 80px 0px 0px 0px;
+          a {
+            text-decoration: none;
+            color: #01bcd4;
+          }
+          h2 {
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 24px;
+            }
+          }
+          p {
+            color: #646e7b;
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 16px;
+            }
+          }
         }
         .more-tags-container {
+          margin: 80px 0px 0px 0px;
+          a {
+            text-decoration: none;
+            color: #f44335;
+          }
+          h2 {
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 24px;
+            }
+          }
+          p {
+            color: #646e7b;
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 16px;
+            }
+          }
         }
         .html-container {
+          margin: 80px 0px 0px 0px;
+          a {
+            text-decoration: none;
+            color: #ff9801;
+          }
+          h2 {
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 24px;
+            }
+          }
+          p {
+            color: #646e7b;
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 16px;
+            }
+          }
         }
         .links-container {
+          margin: 80px 0px 0px 0px;
+          a {
+            text-decoration: none;
+            color: #e91e63;
+          }
+          h2 {
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 24px;
+            }
+          }
+          p {
+            color: #646e7b;
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 16px;
+            }
+          }
         }
         .category-hierarchy-container {
+          margin: 80px 0px 0px 0px;
+          a {
+            text-decoration: none;
+            color: #4caf50;
+          }
+          h2 {
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 24px;
+            }
+          }
+          p {
+            color: #646e7b;
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 16px;
+            }
+          }
         }
         .hello-world-container {
+          margin: 80px 0px 100px 0px;
+          a {
+            text-decoration: none;
+            color: #89229b;
+          }
+          h2 {
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 24px;
+            }
+          }
+          p {
+            color: #646e7b;
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 16px;
+            }
+          }
         }
       }
     }
     .footer-container {
+      background-color: #323437;
+      height: 100px;
       .footer-content {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         .footer-left {
+          display: flex;
+          margin: 150px;
+          gap: 40px;
+          a {
+            text-decoration: none;
+            color: white;
+          }
         }
         .footer-right {
+          display: flex;
+          margin: 150px;
+          gap: 40px;
+          p {
+            color: white;
+            a {
+              text-decoration: none;
+              color: white;
+            }
+          }
         }
       }
     }

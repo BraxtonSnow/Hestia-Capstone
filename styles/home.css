@@ -167,10 +167,12 @@ body .main-page-container .main-body-container .about-hestia-container .about-he
 }
 body .main-page-container .main-body-container .about-hestia-container .about-hestia-content p {
   font-size: 20px;
+  color: white;
 }
 body .main-page-container .main-body-container .about-hestia-container .about-hestia-content h2 {
   font-size: 40px;
   margin: 0px;
+  color: white;
 }
 body .main-page-container .main-body-container .about-hestia-container .photo-content {
   margin: 0px 150px 0px 0px;
